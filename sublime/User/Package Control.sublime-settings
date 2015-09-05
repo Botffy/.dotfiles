@@ -4,10 +4,14 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"EditorConfig",
 		"Git",
 		"MarkdownEditing",
+		"MoveTab",
 		"Package Control",
-		"SideBarEnhancements"
+		"PlainTasks",
+		"SideBarEnhancements",
+		"TodoReview"
 	]
 }
