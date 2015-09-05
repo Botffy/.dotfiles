@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
+	"copy_with_empty_selection": false,
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true
+}
