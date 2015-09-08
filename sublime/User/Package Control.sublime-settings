@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"AMPL language",
 		"BracketHighlighter",
 		"EditorConfig",
 		"Git",
