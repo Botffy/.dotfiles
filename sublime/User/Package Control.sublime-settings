@@ -13,6 +13,8 @@
 		"Package Control",
 		"PlainTasks",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jsl",
 		"TodoReview"
 	]
 }

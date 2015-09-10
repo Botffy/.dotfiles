@@ -1,0 +1,22 @@
+{
+	"user":
+	{
+		"gutter_theme": "",
+		"lint_mode": "background",
+		"linters":
+		{
+			"jsl":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "stippled underline",
+		"show_errors_on_save": true
+	}
+}

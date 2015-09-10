@@ -1,18 +1,19 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/iPlastic (SL).tmTheme",
 	"copy_with_empty_selection": false,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
 	],
 	"show_encoding": true,
+	"show_line_endings": true,
 	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-    "show_line_endings": true
+	"trim_trailing_white_space_on_save": true
 }
