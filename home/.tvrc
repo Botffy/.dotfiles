@@ -1,0 +1,3 @@
+[DEFAULT]
+editor = nano
+notes_dir = ~/Notes
