@@ -1,34 +1,29 @@
 {
 	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		".gradle/**"
+	],
 	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
+	"dictionary": "Packages/Dictionaries/Hungarian.dic",
 	"ensure_newline_at_eof_on_save": true,
-	"extra_file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.sublime-workspace"
-	],
 	"extra_folder_exclude_patterns":
 	[
 		".svn",
@@ -41,6 +36,11 @@
 	[
 		"Markdown",
 		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"show_encoding": true,
 	"show_line_endings": true,

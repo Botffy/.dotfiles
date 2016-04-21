@@ -7,17 +7,22 @@
 	[
 		"AMPL language",
 		"BracketHighlighter",
+		"Dictionaries",
 		"DocBlockr",
 		"EditorConfig",
+		"EditorConfigSnippets",
 		"Git",
 		"Gradle_Language",
-		"JSHint Gutter",
+		"HTML Extended",
 		"MarkdownEditing",
 		"MoveTab",
+		"Notes",
 		"Oracle PL SQL",
 		"Package Control",
 		"PlainTasks",
+		"Random Everything",
 		"SideBarEnhancements",
+		"Status Bar Time",
 		"TodoReview"
 	]
 }
