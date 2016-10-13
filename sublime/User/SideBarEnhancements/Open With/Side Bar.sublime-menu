@@ -4,14 +4,14 @@
 		[
 
 			{
-				"caption": "Opera",
-				"id": "side-bar-files-open-with-opera",
+				"caption": "Word",
+				"id": "side-bar-files-open-with-word",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Program Files\\Opera\\launcher.exe",
-									"extensions":".*", //any file with extension
+									"application": "C:\\Program Files\\Microsoft Office\\Office15\\WINWORD.EXE",
+									"extensions":".docx", //any file with extension
 									"args":[]
 						},
 				"open_automatically" : false // will close the view/tab and launch the application
