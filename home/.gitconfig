@@ -1,0 +1,45 @@
+[push]
+	default = matching
+[core]
+	trustctime = false
+	editor = vim
+	filemode = false
+	attributesfile = /home/armin.scipiades/.gitattributes
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=3600
+[merge]
+	tool = diffuse
+[mergetool]
+	keeptemporaries = false
+	keepbackups = false
+	prompt = false
+	trustexitcode = false
+[alias]
+	last = log -1 --stat
+	cp = cherry-pick
+	co = checkout
+	cl = clone
+	ci = commit
+	st = status -sb
+	br = branch
+	unstage = reset HEAD --
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	wdiff = diff --word-diff=color --unified=1
+[user]
+	name = Ármin Scipiades
+	email = armin.scipiades@egroup.hu
+[http]
+	sslCAPath = /cygdrive/d/certs/
+[mergetool "meld"]
+	path = /cygdrive/d/utils/Meld/Meld.exe
+[mergetool "p4merge"]
+	path = /cygdrive/c/Program Files/Perforce/p4merge.exe
+[diff]
+	tool = diffuse
+[diff "pandoc"]
+  textconv=pandoc --to=markdown `cygpath -w $@`
+  prompt = false
