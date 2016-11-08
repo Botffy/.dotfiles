@@ -4,7 +4,6 @@
 	trustctime = false
 	editor = vim
 	filemode = false
-	attributesfile = /home/armin.scipiades/.gitattributes
 [color]
 	ui = true
 [credential]
@@ -29,17 +28,10 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
 	lol = log --pretty=oneline --abbrev-commit --graph --decorate
 	wdiff = diff --word-diff=color --unified=1
-[user]
-	name = Ármin Scipiades
-	email = armin.scipiades@egroup.hu
-[http]
-	sslCAPath = /cygdrive/d/certs/
-[mergetool "meld"]
-	path = /cygdrive/d/utils/Meld/Meld.exe
-[mergetool "p4merge"]
-	path = /cygdrive/c/Program Files/Perforce/p4merge.exe
 [diff]
 	tool = diffuse
 [diff "pandoc"]
-  textconv=pandoc --to=markdown `cygpath -w $@`
-  prompt = false
+	textconv=pandoc --to=markdown `cygpath -w $@`
+	prompt = false
+[include]
+	path = .gitconfig-local
